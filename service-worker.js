@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/emartey/portfolio-page-2/precache-manifest.9fc9d2b2d710e0b50fbcea066c4545f8.js"
+  "/portfolio-page-2/precache-manifest.c6e97afa2101ea95ac8423ef6ee30da9.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/emartey/portfolio-page-2/index.html", {
+workbox.routing.registerNavigationRoute("/portfolio-page-2/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
